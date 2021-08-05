@@ -70,9 +70,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      .get-start .get-start__social .icon img {
-        width: 30px;
-        height: 30px; }
 
 .classes {
   display: flex;
@@ -435,42 +432,49 @@ body {
       margin-left: 20px; }
     .contact .contact__form .contact__form__content {
       margin: 20px;
-      color: #F6F7FB; }
+      color: #BBBBBB;
+      font-size: 20px; }
       .contact .contact__form .contact__form__content select, .contact .contact__form .contact__form__content input, .contact .contact__form .contact__form__content textarea {
+        font-size: 20px;
         display: block;
-        padding: 5px;
+        padding: 5px 5px 5px 20px;
         border: 1px solid #00A2FF;
         background-color: #181A1F;
-        margin: 20px 0;
+        margin: 40px 0;
         color: #BBBBBB; }
+        .contact .contact__form .contact__form__content select::placeholder, .contact .contact__form .contact__form__content input::placeholder, .contact .contact__form .contact__form__content textarea::placeholder {
+          color: #BBBBBB; }
       .contact .contact__form .contact__form__content select {
-        height: 40px;
-        width: 585px;
+        height: 60px;
+        width: 670px;
+        margin-top: 100px;
         appearance: none;
-        background-image: url("assets/down.png");
+        background-image: url("assets/dropdown.png");
         background-size: 15px;
         background-repeat: no-repeat;
         background-position: 98%; }
       .contact .contact__form .contact__form__content input {
-        height: 30px;
-        width: 575px; }
+        height: 50px;
+        width: 645px; }
       .contact .contact__form .contact__form__content input:nth-child(3) {
         height: 160px; }
       .contact .contact__form .contact__form__content input:last-child {
-        width: 590px;
-        height: 35px;
+        width: 670px;
+        height: 60px;
         border-radius: 10px;
         background-color: #5EB6E1;
         color: #000000;
         margin-bottom: 40px; }
+      .contact .contact__form .contact__form__content textarea {
+        padding-top: 20px; }
       .contact .contact__form .contact__form__content span {
         margin-right: 20px; }
       .contact .contact__form .contact__form__content .contact__form__content__social {
-        margin-top: 20px; }
+        margin-top: 40px; }
         .contact .contact__form .contact__form__content .contact__form__content__social img {
           width: 20px;
           height: 20px;
-          margin-right: 25px; }
+          margin-right: 30px; }
       .contact .contact__form .contact__form__content form {
         margin-top: 50px; }
   .contact .contact__image {
@@ -500,7 +504,7 @@ body {
     font-size: 30px;
     color: #FFFFFF; }
   .more .more__quick-contacts {
-    width: 30%;
+    width: 20%;
     padding-right: 100px; }
     .more .more__quick-contacts span {
       font-size: 19px;
@@ -511,13 +515,13 @@ body {
     .more .more__quick-contacts img {
       margin-right: 10px; }
   .more .more__popular-tags {
-    width: 30%;
+    width: 20%;
     padding-right: 100px; }
     .more .more__popular-tags img {
       margin-right: 10px; }
     .more .more__popular-tags span {
       display: inline-block;
-      padding: 5px 10px;
+      padding: 10px 15px;
       margin: 2px 5px 2px 0;
       border: 1px solid #BBBBBB;
       color: #BBBBBB;
@@ -542,7 +546,7 @@ footer .footer__copy-right {
   background-color: #000000;
   font-size: 17px;
   color: #BBBBBB;
-  padding: 20px; }
+  padding: 50px; }
 
 .button {
   width: 301px;
