@@ -113,10 +113,7 @@ body {
             height: 70px;
             display: block;
             @include flex-center();
-            img {
-                width: 30px;
-                height: 30px;
-            }
+            
         }
     }
 }
@@ -589,48 +586,57 @@ body {
         }
         .contact__form__content {
             margin: 20px;
-            color: $light_gray;
+            color: $gray;
+            font-size: 20px;
             select, input, textarea {
+                font-size: 20px;
                 display: block;
-                padding: 5px;
+                padding: 5px 5px 5px 20px;
                 border: 1px solid $blue;
                 background-color: $light_black;
-                margin: 20px 0;
+                margin: 40px 0;
                 color: $gray;
+                &::placeholder {
+                    color: $gray;
+                }
             }
             select {
-                height: 40px;
-                width: 585px;
+                height: 60px;
+                width: 670px;
+                margin-top: 100px;
                 appearance: none;
-                background-image: url('assets/down.png');
+                background-image: url('assets/dropdown.png');
                 background-size: 15px;
                 background-repeat: no-repeat;
                 background-position: 98%;
             }
             input {
-                height: 30px;
-                width: 575px;
+                height: 50px;
+                width: 645px;
             }
             input:nth-child(3) {
                 height: 160px;
             }
             input:last-child {
-                width: 590px;
-                height: 35px;
+                width: 670px;
+                height: 60px;
                 border-radius: 10px;
                 background-color: $light_blue;
                 color: $black;
                 margin-bottom: 40px;
             }
+            textarea {
+                padding-top: 20px;
+            }
             span {
                 margin-right: 20px;
             }
             .contact__form__content__social {
-                margin-top: 20px;
+                margin-top: 40px;
                 img {
                     width: 20px;
                     height: 20px;
-                    margin-right: 25px;
+                    margin-right: 30px;
                 }
             }
             form {
@@ -673,7 +679,7 @@ body {
         color: $white;
     }
     .more__quick-contacts {
-        width: 30%;
+        width: 20%;
         padding-right: 100px;
         span {
             font-size: 19px;
@@ -688,14 +694,14 @@ body {
         }
     }
     .more__popular-tags {
-        width: 30%;
+        width: 20%;
         padding-right: 100px;
         img {
             margin-right: 10px;
         }
         span {
             display: inline-block;
-            padding: 5px 10px;
+            padding: 10px 15px;
             margin: 2px 5px 2px 0;
             border: 1px solid $gray;
             color: $gray;
@@ -723,7 +729,7 @@ footer {
         background-color: $black;
         font-size: 17px;
         color: $gray;
-        padding: 20px;
+        padding: 50px;
     }
 }
 
