@@ -282,8 +282,9 @@ body {
         
         .our-classes__courses__item {
             position: relative;
-            width: 33%;
+            width: 33.33%;
             height: 500px;
+            background-size: 100%;
 
             .our-classes__courses__item__hover {
                 display: none;
@@ -805,6 +806,7 @@ body {
             font-size: 14px;
             text-decoration: none;
             border: 1px solid $gray;
+            transition-delay: .2s;
         }
 
         a:hover {
