@@ -188,7 +188,7 @@ body {
       position: relative;
       width: 33.33%;
       height: 500px;
-      background-size: 100%; }
+      background-size: auto 100%; }
       .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover {
         display: none;
         opacity: .9;
