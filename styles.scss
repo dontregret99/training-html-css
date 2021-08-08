@@ -188,7 +188,6 @@ body {
 
     .welcome__text {
         width: 40%;
-        padding-right: 200px;
 
         .line {
             width: 30%;
@@ -233,7 +232,8 @@ body {
     .welcome__image {
         display: flex;
         align-items: center;
-        width: 60%;
+        width: 50%;
+        margin-left: 10%;
 
         .welcome__image__left {
             width: 50%;
@@ -708,6 +708,8 @@ body {
 
             textarea {
                 padding-top: 20px;
+                width: 645px;
+                height: 350px;
             }
 
             span {

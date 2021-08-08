@@ -118,8 +118,7 @@ body {
   max-width: 1622px;
   margin: 150px auto; }
   .welcome .welcome__text {
-    width: 40%;
-    padding-right: 200px; }
+    width: 40%; }
     .welcome .welcome__text .line {
       width: 30%;
       border-bottom: 2px solid #5EB6E1; }
@@ -151,7 +150,8 @@ body {
   .welcome .welcome__image {
     display: flex;
     align-items: center;
-    width: 60%; }
+    width: 50%;
+    margin-left: 10%; }
     .welcome .welcome__image .welcome__image__left {
       width: 50%;
       padding: 30px; }
@@ -480,7 +480,9 @@ body {
         background-color: #5EB6E1;
         cursor: pointer; }
       .contact .contact__form .contact__form__content textarea {
-        padding-top: 20px; }
+        padding-top: 20px;
+        width: 645px;
+        height: 350px; }
       .contact .contact__form .contact__form__content span {
         margin-right: 20px; }
       .contact .contact__form .contact__form__content .contact__form__content__social {
