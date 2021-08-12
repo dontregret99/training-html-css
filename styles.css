@@ -10,6 +10,18 @@
 .pb-40 {
   padding-bottom: 40px; }
 
+.btn {
+  display: block;
+  width: 301px;
+  height: 92px;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  line-height: 92px;
+  text-decoration: none;
+  background-color: #5EB6E1;
+  border-radius: 15px; }
+
 body {
   margin: 0; }
 
@@ -19,7 +31,7 @@ body {
   justify-content: space-between;
   width: 80%;
   max-width: 1622px;
-  font-size: 25px; }
+  font-size: 1.5rem; }
   .header .header__logo {
     text-decoration: none; }
     .header .header__logo img {
@@ -49,11 +61,11 @@ body {
     padding-top: 300px; }
     .get-start .get-start__content .small-text {
       margin-bottom: 0;
-      font-size: 30px;
+      font-size: 1.8rem;
       color: #BBBBBB; }
     .get-start .get-start__content .slogan {
       margin-top: 0;
-      font-size: 75px;
+      font-size: 4.5rem;
       color: #FFFFFF; }
   .get-start .get-start__social {
     position: absolute;
@@ -85,10 +97,10 @@ body {
     text-decoration: none; }
     .classes .classes__item .classes__item__title {
       margin-bottom: 0;
-      font-size: 30px;
+      font-size: 1.8rem;
       color: #FFFFFF; }
     .classes .classes__item .classes__item__description {
-      font-size: 20px;
+      font-size: 1.2rem;
       color: #BBBBBB; }
     .classes .classes__item .classes__button {
       display: flex;
@@ -123,14 +135,14 @@ body {
       width: 30%;
       border-bottom: 2px solid #5EB6E1; }
     .welcome .welcome__text > p:first-child {
-      font-size: 15px;
+      font-size: .9rem;
       color: #FF6C2C; }
     .welcome .welcome__text > p:nth-child(2) {
-      font-size: 60px;
+      font-size: 4.8rem;
       margin: 10px 0; }
     .welcome .welcome__text .welcome__text__content {
       margin: 50px 0;
-      font-size: 30px; }
+      font-size: 1.8rem; }
       .welcome .welcome__text .welcome__text__content p {
         margin: 50px 0; }
       .welcome .welcome__text .welcome__text__content > p:first-child {
@@ -144,7 +156,7 @@ body {
       margin-top: 100px;
       text-decoration: none;
       color: #000000;
-      font-size: 25px;
+      font-size: 1.5rem;
       background-color: #5EB6E1;
       border-radius: 15px; }
   .welcome .welcome__image {
@@ -172,10 +184,10 @@ body {
     .our-classes .our-classes__description p:first-child {
       margin-bottom: 20px;
       color: #FFFFFF;
-      font-size: 60px; }
+      font-size: 3.6rem; }
     .our-classes .our-classes__description p:last-child {
       color: #BBBBBB;
-      font-size: 30px; }
+      font-size: 1.8rem; }
     .our-classes .our-classes__description .line {
       width: 20%;
       margin: auto;
@@ -190,19 +202,18 @@ body {
       background-size: auto 100%; }
       .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover {
         display: none;
-        opacity: .9;
         margin: 50px 40px;
         padding: 60px 30px;
         text-align: center;
-        background-color: #00A2FF; }
+        background-color: rgba(0, 162, 255, 0.9); }
         .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover p:first-child {
           margin: 0 0 10px 0;
           color: #FFFFFF;
-          font-size: 45px; }
+          font-size: 2.7rem; }
         .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover p:nth-child(3) {
           margin: 40px 0;
           color: #F6F7FB;
-          font-size: 20px; }
+          font-size: 1.2rem; }
         .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover a:last-child {
           display: flex;
           justify-content: center;
@@ -212,7 +223,7 @@ body {
           margin: auto;
           text-decoration: none;
           color: #000000;
-          font-size: 15px;
+          font-size: .9rem;
           border-radius: 15px;
           background-color: #FFFFFF; }
         .our-classes .our-classes__courses .our-classes__courses__item .our-classes__courses__item__hover .line {
@@ -227,7 +238,7 @@ body {
         padding: 30px 0;
         width: 100%;
         color: #FFFFFF;
-        font-size: 45px;
+        font-size: 2.7rem;
         text-align: center;
         background-color: #000000; }
     .our-classes .our-classes__courses .our-classes__courses--class1 {
@@ -275,9 +286,9 @@ body {
     text-align: center; }
     .our-team .our-team__description p:first-child {
       margin-bottom: 10px;
-      font-size: 60px; }
+      font-size: 3.6rem; }
     .our-team .our-team__description p:nth-child(3) {
-      font-size: 30px; }
+      font-size: 1.8rem; }
     .our-team .our-team__description .line {
       width: 30%;
       margin: auto;
@@ -296,10 +307,10 @@ body {
         height: auto; }
       .our-team .our-team__member .our-team__member__item .our-team__member__item__info p:first-child {
         margin-bottom: 0;
-        font-size: 45px; }
+        font-size: 2.7rem; }
       .our-team .our-team__member .our-team__member__item .our-team__member__item__info p:nth-child(2) {
         margin: 10px 0;
-        font-size: 30px; }
+        font-size: 1.8rem; }
       .our-team .our-team__member .our-team__member__item .our-team__member__item__info .our-team__member__item__info__social img {
         width: 15px;
         height: 15px;
@@ -313,7 +324,7 @@ body {
     height: 92px;
     text-decoration: none;
     color: #000000;
-    font-size: 25px;
+    font-size: 1.5rem;
     border-radius: 15px;
     background-color: #5EB6E1; }
 
@@ -332,7 +343,7 @@ body {
     .review .review__item p:first-child {
       margin-bottom: 0;
       color: #FFFFFF;
-      font-size: 60px; }
+      font-size: 3.6rem; }
     .review .review__item .line {
       width: 20%;
       margin: auto;
@@ -341,14 +352,14 @@ body {
       width: 70%;
       margin: 80px auto 60px auto;
       color: #F6F7FB;
-      font-size: 30px; }
+      font-size: 1.8rem; }
     .review .review__item p:nth-child(5) {
       margin-bottom: 0;
       color: #FFFFFF;
-      font-size: 30px; }
+      font-size: 1.8rem; }
     .review .review__item p:nth-child(6) {
       color: #F6F7FB;
-      font-size: 20px;
+      font-size: 1.2rem;
       margin-top: 10px; }
   .review .review__item--show {
     display: block; }
@@ -383,7 +394,7 @@ body {
   text-align: center; }
   .recent-news p:first-child {
     margin-bottom: 10px;
-    font-size: 60px; }
+    font-size: 3.6rem; }
   .recent-news .line {
     width: 5%;
     margin: auto;
@@ -404,11 +415,11 @@ body {
         text-align: left; }
         .recent-news .recent-news__box .recent-news__box__item .recent-news__box__item__content p:nth-child(1) {
           color: #5EB6E1;
-          font-size: 20px; }
+          font-size: 1.2rem; }
         .recent-news .recent-news__box .recent-news__box__item .recent-news__box__item__content p:nth-child(2), .recent-news .recent-news__box .recent-news__box__item .recent-news__box__item__content span {
           margin-bottom: 30px;
           color: #FFFFFF;
-          font-size: 14px; }
+          font-size: 1.2rem; }
         .recent-news .recent-news__box .recent-news__box__item .recent-news__box__item__content .recent-news__box__item__content__details img {
           margin-right: 5px;
           width: 12px;
@@ -423,7 +434,7 @@ body {
     width: 300px;
     height: 74px;
     color: #000000;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 15px;
     background-color: #5EB6E1; }
@@ -438,7 +449,7 @@ body {
     .contact .contact__form p:first-child {
       margin-bottom: 0;
       color: #FFFFFF;
-      font-size: 60px; }
+      font-size: 3.6rem; }
     .contact .contact__form .line {
       width: 15%;
       margin-left: 20px;
@@ -446,13 +457,13 @@ body {
     .contact .contact__form .contact__form__content {
       margin: 20px;
       color: #BBBBBB;
-      font-size: 20px; }
+      font-size: 1.2rem; }
       .contact .contact__form .contact__form__content select, .contact .contact__form .contact__form__content input, .contact .contact__form .contact__form__content textarea {
         display: block;
         padding: 5px 5px 5px 20px;
         margin: 40px 0;
         color: #BBBBBB;
-        font-size: 20px;
+        font-size: 1.2rem;
         border: 1px solid #00A2FF;
         background-color: #181A1F; }
         .contact .contact__form .contact__form__content select::placeholder, .contact .contact__form .contact__form__content input::placeholder, .contact .contact__form .contact__form__content textarea::placeholder {
@@ -504,7 +515,7 @@ body {
   .more .more__logo {
     position: relative;
     width: 40%;
-    font-size: 33px; }
+    font-size: 1.83rem; }
     .more .more__logo a {
       position: absolute;
       bottom: 50px;
@@ -518,17 +529,17 @@ body {
     .more .more__logo b:last-child {
       color: #5EB6E1; }
   .more p {
-    font-size: 30px;
+    font-size: 1.8rem;
     color: #FFFFFF; }
   .more .more__quick-contacts {
     width: 20%;
     padding-right: 100px; }
     .more .more__quick-contacts span {
       color: #BBBBBB;
-      font-size: 19px; }
+      font-size: 1.2rem; }
     .more .more__quick-contacts p:nth-child(2) {
       color: #BBBBBB;
-      font-size: 25px; }
+      font-size: 1.5rem; }
     .more .more__quick-contacts img {
       margin-right: 10px; }
   .more .more__popular-tags {
@@ -541,7 +552,7 @@ body {
       margin: 2px 5px 2px 0;
       padding: 10px 15px;
       color: #BBBBBB;
-      font-size: 14px;
+      font-size: .9rem;
       text-decoration: none;
       border: 1px solid #BBBBBB;
       transition-delay: .2s; }
@@ -557,7 +568,7 @@ footer .footer__nav {
   footer .footer__nav a {
     padding: 30px 70px 30px 0;
     color: #000000;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-decoration: none; }
 footer .footer__copy-right {
   display: flex;
@@ -565,19 +576,7 @@ footer .footer__copy-right {
   align-items: center;
   padding: 50px;
   color: #BBBBBB;
-  font-size: 17px;
+  font-size: 1.22rem;
   background-color: #24272E; }
-
-.button {
-  display: block;
-  width: 301px;
-  height: 92px;
-  color: #000000;
-  font-size: 30px;
-  text-align: center;
-  line-height: 92px;
-  text-decoration: none;
-  background-color: #5EB6E1;
-  border-radius: 15px; }
 
 /*# sourceMappingURL=styles.css.map */

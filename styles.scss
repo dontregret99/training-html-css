@@ -1,3 +1,4 @@
+// ======================== mixin color ==============================
 $light_blue: #5EB6E1;
 $blue: #00A2FF;
 $gray: #BBBBBB;
@@ -17,6 +18,7 @@ $violet: #945B9F;
     align-items: center;
 }
 
+// ====================== spacing ====================================
 .m-auto {
     margin: auto;
 }
@@ -33,6 +35,25 @@ $violet: #945B9F;
     padding-bottom: 40px;
 }
 
+
+.btn {
+    display: block;
+    width: 301px;
+    height: 92px;
+
+    color: $black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 92px;
+    text-decoration: none;
+
+    background-color: $light_blue;
+    border-radius: 15px;
+}
+
+
+// ========================== css content =========================
+
 body {
     margin: 0;
 }
@@ -45,7 +66,7 @@ body {
     width: 80%;
     max-width: 1622px;
 
-    font-size: 25px;
+    font-size: 1.5rem;
 
     .header__logo {
         text-decoration: none;
@@ -98,13 +119,13 @@ body {
         .small-text {
             margin-bottom: 0;
 
-            font-size: 30px;
+            font-size: 1.8rem;
             color: $gray;
         }
         .slogan {
             margin-top: 0;
 
-            font-size: 75px;
+            font-size: 4.5rem;
             color: $white;
         }
     }
@@ -145,11 +166,11 @@ body {
         .classes__item__title {
             margin-bottom: 0;
 
-            font-size: 30px;
+            font-size: 1.8rem;
             color: $white;
         }
         .classes__item__description {
-            font-size: 20px;
+            font-size: 1.2rem;
             color: $gray;
         }
         .classes__button {
@@ -195,18 +216,18 @@ body {
         }
 
         >p:first-child {
-            font-size: 15px;
+            font-size: .9rem;
             color: $orange;
         }
 
         >p:nth-child(2) {
-            font-size: 60px;
+            font-size: 4.8rem;
             margin: 10px 0;
         }
 
         .welcome__text__content {
             margin: 50px 0;
-            font-size: 30px;
+            font-size: 1.8rem;
 
             p {
                 margin: 50px 0;
@@ -223,7 +244,7 @@ body {
 
             text-decoration: none;
             color: $black;
-            font-size: 25px;
+            font-size: 1.5rem;
 
             background-color: $light_blue;
             border-radius: 15px;
@@ -262,12 +283,12 @@ body {
         p:first-child {
             margin-bottom: 20px;
             color: $white;
-            font-size: 60px;
+            font-size: 3.6rem;
         }
 
         p:last-child {
             color: $gray;
-            font-size: 30px;
+            font-size: 1.8rem;
         }
 
         .line {
@@ -288,22 +309,21 @@ body {
 
             .our-classes__courses__item__hover {
                 display: none;
-                opacity: .9;
                 margin: 50px 40px;
                 padding: 60px 30px;
                 text-align: center;
-                background-color: $blue;
+                background-color: rgba($blue, .9);
 
                 p:first-child {
                     margin: 0 0 10px 0;
                     color: $white;
-                    font-size: 45px;
+                    font-size: 2.7rem;
                 }
 
                 p:nth-child(3) {
                     margin: 40px 0;
                     color: $light_gray;
-                    font-size: 20px;
+                    font-size: 1.2rem;
                 }
 
                 a:last-child {
@@ -314,7 +334,7 @@ body {
 
                     text-decoration: none;
                     color: $black;
-                    font-size: 15px;
+                    font-size: .9rem;
 
                     border-radius: 15px;
                     background-color: $white;
@@ -337,7 +357,7 @@ body {
                 width: 100%;
 
                 color: $white;
-                font-size: 45px;
+                font-size: 2.7rem;
                 text-align: center;
 
                 background-color: $black;
@@ -411,11 +431,11 @@ body {
 
         p:first-child {
             margin-bottom: 10px;
-            font-size: 60px;
+            font-size: 3.6rem;
         }
 
         p:nth-child(3) {
-            font-size: 30px;
+            font-size: 1.8rem;
         }
 
         .line {
@@ -442,12 +462,12 @@ body {
             .our-team__member__item__info {
                 p:first-child {
                     margin-bottom: 0;
-                    font-size: 45px;
+                    font-size: 2.7rem;
                 }
 
                 p:nth-child(2) {
                     margin: 10px 0;
-                    font-size: 30px;
+                    font-size: 1.8rem;
                 }
 
                 .our-team__member__item__info__social {
@@ -469,7 +489,7 @@ body {
 
         text-decoration: none;
         color: $black;
-        font-size: 25px;
+        font-size: 1.5rem;
 
         border-radius: 15px;
         background-color: $light_blue;
@@ -493,7 +513,7 @@ body {
         p:first-child {
             margin-bottom: 0;
             color: $white;
-            font-size: 60px;
+            font-size: 3.6rem;
         }
 
         .line {
@@ -507,18 +527,18 @@ body {
             margin: 80px auto 60px auto;
 
             color: $light_gray;
-            font-size: 30px;
+            font-size: 1.8rem;
         }
 
         p:nth-child(5) {
             margin-bottom: 0;
             color: $white;
-            font-size: 30px;
+            font-size: 1.8rem;
         }
 
         p:nth-child(6) {
             color: $light_gray;
-            font-size: 20px;
+            font-size: 1.2rem;
             margin-top: 10px;
         }
     }
@@ -569,7 +589,7 @@ body {
 
     p:first-child {
         margin-bottom: 10px;
-        font-size: 60px;
+        font-size: 3.6rem;
     }
 
     .line {
@@ -596,12 +616,12 @@ body {
 
                 p:nth-child(1) {
                     color: $light_blue;
-                    font-size: 20px;
+                    font-size: 1.2rem;
                 }
                 p:nth-child(2), span {
                     margin-bottom: 30px;
                     color: $white;
-                    font-size: 14px;
+                    font-size: 1.2rem;
                 }
                 .recent-news__box__item__content__details {
                     img {
@@ -624,7 +644,7 @@ body {
         height: 74px;
 
         color: $black;
-        font-size: 25px;
+        font-size: 1.5rem;
         text-decoration: none;
 
         border-radius: 15px;
@@ -645,7 +665,7 @@ body {
         p:first-child {
             margin-bottom: 0;
             color: $white;
-            font-size: 60px;
+            font-size: 3.6rem;
         }
 
         .line {
@@ -656,7 +676,7 @@ body {
         .contact__form__content {
             margin: 20px;
             color: $gray;
-            font-size: 20px;
+            font-size: 1.2rem;
 
             select, input, textarea {
                 display: block;
@@ -664,7 +684,7 @@ body {
                 margin: 40px 0;
 
                 color: $gray;
-                font-size: 20px;
+                font-size: 1.2rem;
 
                 border: 1px solid $blue;
                 background-color: $light_black;
@@ -743,7 +763,7 @@ body {
     .more__logo {
         position: relative;
         width: 40%;
-        font-size: 33px;
+        font-size: 1.83rem;
 
         a {
             position: absolute;
@@ -768,7 +788,7 @@ body {
     }
 
     p {
-        font-size: 30px;
+        font-size: 1.8rem;
         color: $white;
     }
 
@@ -778,12 +798,12 @@ body {
 
         span {
             color: $gray;
-            font-size: 19px;
+            font-size: 1.2rem;
         }
 
         p:nth-child(2) {
             color: $gray;
-            font-size: 25px;
+            font-size: 1.5rem;
         }
 
         img {
@@ -805,7 +825,7 @@ body {
             padding: 10px 15px;
 
             color: $gray;
-            font-size: 14px;
+            font-size: .9rem;
             text-decoration: none;
             border: 1px solid $gray;
             transition-delay: .2s;
@@ -826,7 +846,7 @@ footer {
         a {
             padding: 30px 70px 30px 0;
             color: $black;
-            font-size: 20px;
+            font-size: 1.2rem;
             text-decoration: none;
         }
     }
@@ -835,22 +855,7 @@ footer {
         @include flex-center();
         padding: 50px;
         color: $gray;
-        font-size: 17px;
+        font-size: 1.22rem;
         background-color: $more_gray;
     }
-}
-
-.button {
-    display: block;
-    width: 301px;
-    height: 92px;
-
-    color: $black;
-    font-size: 30px;
-    text-align: center;
-    line-height: 92px;
-    text-decoration: none;
-
-    background-color: $light_blue;
-    border-radius: 15px;
 }
