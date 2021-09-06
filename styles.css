@@ -53,9 +53,15 @@ body {
 .get-start {
   position: relative;
   width: 100%;
-  height: 916px;
-  background-image: url("assets/getstarted.png"); }
+  height: 916px; }
+  .get-start > img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 916px; }
   .get-start .get-start__content {
+    position: absolute;
+    z-index: 1;
     width: 50%;
     margin-left: 242px;
     padding-top: 300px; }
@@ -69,6 +75,7 @@ body {
       margin-top: 0; }
   .get-start .get-start__social {
     position: absolute;
+    z-index: 1;
     left: 0;
     bottom: 20px;
     display: flex;
@@ -138,10 +145,10 @@ body {
     .welcome .welcome__text .line {
       width: 30%;
       border-bottom: 2px solid #5EB6E1; }
-    .welcome .welcome__text .welcome__text__1 {
+    .welcome .welcome__text .welcome__first {
       font-size: .9rem;
       color: #FF6C2C; }
-    .welcome .welcome__text .welcome__text__2 {
+    .welcome .welcome__text .welcome__second {
       font-size: 4.8rem;
       margin: 10px 0; }
     .welcome .welcome__text .text__content {
@@ -470,12 +477,12 @@ body {
       .contact .contact__form .form__content .select {
         height: 60px;
         width: 670px;
-        margin-top: 100px;
         appearance: none;
         background-image: url("assets/dropdown.png");
         background-size: 15px;
         background-repeat: no-repeat;
-        background-position: 98%; }
+        background-position: 98%;
+        margin-top: 100px; }
       .contact .contact__form .form__content .input {
         width: 645px;
         height: 50px; }
@@ -525,7 +532,7 @@ body {
       color: #FFFFFF; }
     .more .more__logo .logo__text--blue {
       color: #5EB6E1; }
-  .more p {
+  .more .more__text {
     font-size: 1.8rem;
     color: #FFFFFF; }
   .more .more__quick-contacts {
